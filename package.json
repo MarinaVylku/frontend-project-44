@@ -4,5 +4,9 @@
   "description": "brain-games",
   "type": "module",
   "author": "MarinaVylku",
-  "license": "ISC"
- }
+  "license": "ISC",
+  "bin": {
+  "brain-games": "bin/brain-games.js"
+}
+}
+ 
