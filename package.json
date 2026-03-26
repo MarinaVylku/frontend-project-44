@@ -12,7 +12,7 @@
 
     "brain-calc": "bin/brain-calc.js",
 
-    "brain-divisor": "bin/brain-divisor.js"
+    "brain-gcd": "bin/brain-gcd.js"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"

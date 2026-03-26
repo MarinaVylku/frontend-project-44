@@ -20,6 +20,6 @@ brain-even:
 brain-calc:
 	node bin/brain-calc.js
 
-brain-divisor:
-	node bin/brain-divisor.js
+brain-gcd:
+	node bin/brain-gcd.js
 	
