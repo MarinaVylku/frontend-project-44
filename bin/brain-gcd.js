@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import runDivisorGame from '../src/games/divisor.js'
+import runDivisorGame from '../src/games/gcd.js'
 
 runDivisorGame()

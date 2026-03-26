@@ -13,4 +13,4 @@ Brain-calc
 
 Brain-divisor
 
-[![asciicast](https://asciinema.org/a/Alf0N5upUfXeUDiR.svg)](https://asciinema.org/a/Alf0N5upUfXeUDiR)
+[![asciicast](https://asciinema.org/a/xuK3ELd0Yn4A33DD.svg)](https://asciinema.org/a/xuK3ELd0Yn4A33DD)
