@@ -10,31 +10,26 @@ const getRandomOperator = () => {
   return signes[random]
 }
 
-const generateRounds = () => {
-  const rounds = []
-  for (let i = 0; i < 2; i += 1) {
-    const firstOperand = getRandomNumber(1, 100)
-    const secondOperand = getRandomNumber(1, 100)
-    const operator = getRandomOperator()
+const generateRound = () => {
+  const firstOperand = getRandomNumber(1, 100)
+  const secondOperand = getRandomNumber(1, 100)
+  const operator = getRandomOperator()
 
-    const question = `${firstOperand} ${operator} ${secondOperand}`
-    let correctAnswer
-    if (operator === '+') {
-      correctAnswer = String(firstOperand + secondOperand)
-    }
-    else if (operator === '-') {
-      correctAnswer = String(firstOperand - secondOperand)
-    }
-    else {
-      correctAnswer = String(firstOperand * secondOperand)
-    }
-    rounds.push([question, correctAnswer])
+  const question = `${firstOperand} ${operator} ${secondOperand}`
+  let correctAnswer
+  if (operator === '+') {
+    correctAnswer = String(firstOperand + secondOperand)
   }
-  return rounds
+  else if (operator === '-') {
+    correctAnswer = String(firstOperand - secondOperand)
+  }
+  else {
+    correctAnswer = String(firstOperand * secondOperand)
+  }
+  return [question, correctAnswer]
 }
 
 const runCalcGame = () => {
-  const rounds = generateRounds()
-  runGameLogic(rounds, description)
+  runGameLogic(generateRound, description)
 }
 export default runCalcGame
