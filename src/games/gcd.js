@@ -1,4 +1,3 @@
-
 import { getRandomNumber } from '../utils.js'
 
 import runGameLogic from './gameLogic.js'
