@@ -11,6 +11,10 @@ Brain-calc
 
 [![asciicast](https://asciinema.org/a/SPJq1Wjd7Dsho84r.svg)](https://asciinema.org/a/SPJq1Wjd7Dsho84r)
 
-Brain-divisor
+Brain-gcd
 
 [![asciicast](https://asciinema.org/a/xuK3ELd0Yn4A33DD.svg)](https://asciinema.org/a/xuK3ELd0Yn4A33DD)
+
+Brain-progression
+
+[![asciicast](https://asciinema.org/a/FZlnDLEAPIczk576.svg)](https://asciinema.org/a/FZlnDLEAPIczk576)
