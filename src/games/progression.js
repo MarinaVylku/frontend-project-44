@@ -27,7 +27,7 @@ const generateRound = () => {
 
   return [question, correctAnswer]
 }
-}
+
 
 const runProgressionGame = () => {
   runGameLogic(generateRound, description)
