@@ -16,7 +16,7 @@ const runGameLogic = (generateRound, description) => {
     console.log('Correct!')
   }
 
-  console.log(`Congratulation, ${userName}!`)
+  console.log(`Congratulations, ${userName}!`)
 }
 
 export default runGameLogic
