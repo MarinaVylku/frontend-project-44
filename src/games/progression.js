@@ -17,10 +17,16 @@ const generatProgression = () => {
 
 const generateRound = () => {
   const progression = generatProgression()
-  const hidden = progression[getRandomNumber(0, progression.length - 1)]
-  const question = `${String(progression).replace(hidden, '..')}`
-  const correctAnswer = String(hidden)
+
+  const hiddenIndex = getRandomNumber(0, progression.length - 1)
+  const correctAnswer = String(progression[hiddenIndex])
+
+  progression[hiddenIndex] = '..'
+
+  const question = progression.join(' ')
+
   return [question, correctAnswer]
+}
 }
 
 const runProgressionGame = () => {
